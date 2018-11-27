@@ -1,0 +1,50 @@
+/*$button-size: 10px;
+
+#buttons h2 + .cd-box {
+    background-color: red;
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    color: white;
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    padding: $button-size;
+    margin: $button-size*2;
+    border: $button-size/5 solid darkblue;
+    text-decoration: none;
+
+    &:hover {
+        color: lightyellow;
+        transition: color 0.3s;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        width: 20%;
+        height: $button-size;
+        background-color: blue;
+        border: 2px solid darkblue;
+        border-radius: 30% 30% 0 0;
+        position: absolute;
+        top: 0;
+        transition: top 1s;
+        z-index: -1;
+    }
+
+    &::before {
+        left: 12%;
+    }
+
+    &::after {
+        right: 12%;
+    }
+
+    &:hover::before,
+    &:hover::after {
+        top: -$button-size;
+    }
+}*/
