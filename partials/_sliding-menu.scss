@@ -38,6 +38,7 @@
             font-size: 0px;
             transition: all 2s;
             transition: color .5s;
+            transition-delay: .5s;
             display: block;
             width: 100%;
          }
@@ -56,13 +57,13 @@
             display: inline-block;
             width: 150px;
             height: auto;
-            background-color: yellow;
+            background-color: red;
             padding: 0px;
             margin: 0px;
             
 
             a:link {
-               color: black;
+               color: #ffffff;
                padding: 15.7px 0px;
                font-size: 12px;
                display: block;
@@ -70,7 +71,7 @@
                height: 100%;
                
                &:hover{
-                  color: red;
+                  text-shadow: 2px 2px 2px black;
                }
             }
          }
