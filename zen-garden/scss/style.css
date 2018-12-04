@@ -1,0 +1,40 @@
+/* line 1, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "intro supporting supporting" "intro supporting supporting"; }
+
+/* line 11, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.intro {
+  grid-area: intro; }
+
+/* line 15, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.main.supporting {
+  grid-area: supporting;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "explanation benefits" "participation requirements" "footer footer"; }
+
+/* line 25, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.explanation {
+  grid-area: explanation; }
+
+/* line 28, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.participation {
+  grid-area: participation; }
+
+/* line 31, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.benefits {
+  grid-area: benefits; }
+
+/* line 34, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+.requirements {
+  grid-area: requirements; }
+
+/* line 38, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/zen-garden/scss/style.scss */
+footer {
+  grid-area: footer;
+  width: 100vw; }
+
+/*# sourceMappingURL=style.css.map */
