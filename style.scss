@@ -1,6 +1,9 @@
 
 /*@import 'partials/prefix-mixins';*/
+@import 'partials/color';
 @import 'partials/layout';
+@import 'partials/typography';
+
 // responsive grid and media queries
 
 // color palette - these colors will be the color swatches of the Colors section
@@ -21,7 +24,11 @@ xBackground
 body {
     /* this is the page background */
     background-image: url(images/lego-sky-background.svg);
+   
 }
+
+
+
 
 /* --------------------------------
 

@@ -1,4 +1,10 @@
 /*@import 'partials/prefix-mixins';*/
+@import url("https://fonts.googleapis.com/css?family=Titan+One");
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+/* line 12, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_color.scss */
+li b {
+  color: #ffffff; }
+
 /* line 28, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .page-wrapper {
   column-count: 3;
@@ -7,47 +13,62 @@
     grid-template-areas:
     "intro supporting supporting"
     "intro supporting supporting"*/
-  column-fill: balance; }
+  column-fill: balance;
+  background-image: url(images/lego-building.svg); }
 
-/* line 38, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 40, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .intro header {
   column-span: all;
   text-align: center;
   margin-top: 10em;
   margin-bottom: 10em; }
 
-/* line 46, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 48, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .explanation {
   break-inside: avoid; }
 
-/* line 50, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 52, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .participation {
   break-inside: avoid; }
 
-/* line 54, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 56, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .requirements {
   break-inside: avoid; }
 
-/* line 58, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 60, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 footer {
   column-span: all;
   text-align: center; }
 
-/* line 64, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 66, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .wrapper {
   position: absolute;
   top: 0;
   width: 100vw; }
 
-/* line 70, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 72, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .design-archives {
   display: none; }
 
-/* line 74, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
+/* line 76, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .zen-resources {
   column-span: all;
   text-align: center;
   margin-top: 5em; }
+
+/* line 7, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_typography.scss */
+p {
+  font-family: "Barlow", sans-serif;
+  color: white; }
+
+/* line 13, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_typography.scss */
+h1, h2, h3 {
+  font-family: "Titan One", cursive;
+  color: #f2cd37; }
+
+/* line 18, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_typography.scss */
+h1 {
+  font-size: 2.5em; }
 
 /*@import 'partials/color';*/
 /*@import 'partials/grid';*/
@@ -56,7 +77,7 @@ footer {
 xBackground
 
 -------------------------------- */
-/* line 21, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/style.scss */
+/* line 24, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/style.scss */
 body {
   /* this is the page background */
   background-image: url(images/lego-sky-background.svg); }
@@ -122,7 +143,7 @@ xSliding Menu
       color: white;
       font-size: 20px;
       display: block;
-      background-image: url(images/LegoTouchIcon.png);
+      background-image: url(images/LegoLogo.svg);
       background-size: cover;
       background-repeat: no-repeat;
       text-align: center;
