@@ -1,5 +1,5 @@
 /*@import 'partials/prefix-mixins';*/
-/* line 28, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 28, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .page-wrapper {
   column-count: 3;
   /*  grid-template-columns: 1fr 1fr 1fr;
@@ -9,41 +9,41 @@
     "intro supporting supporting"*/
   column-fill: balance; }
 
-/* line 38, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 38, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .intro header {
   column-span: all;
   text-align: center;
   margin-top: 10em;
   margin-bottom: 10em; }
 
-/* line 46, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 46, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .explanation {
   break-inside: avoid; }
 
-/* line 50, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 50, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .participation {
   break-inside: avoid; }
 
-/* line 54, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 54, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .requirements {
   break-inside: avoid; }
 
-/* line 58, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 58, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 footer {
   column-span: all;
   text-align: center; }
 
-/* line 64, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 64, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .wrapper {
   position: absolute;
   top: 0;
   width: 100vw; }
 
-/* line 70, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 70, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .design-archives {
   display: none; }
 
-/* line 74, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_layout.scss */
+/* line 74, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_layout.scss */
 .zen-resources {
   column-span: all;
   text-align: center;
@@ -56,7 +56,7 @@ footer {
 xBackground
 
 -------------------------------- */
-/* line 21, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/style.scss */
+/* line 21, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/style.scss */
 body {
   /* this is the page background */
   background-image: url(images/lego-sky-background.svg); }
@@ -104,19 +104,19 @@ xTypography
 xSliding Menu
 
 -------------------------------- */
-/* line 3, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+/* line 3, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
 .resources {
   color: #787878;
   font-size: 0px;
   width: 0px; }
-  /* line 8, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+  /* line 8, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
   .resources ~ ul {
     width: 8%;
     height: 50px;
     position: relative;
     margin: 0px auto;
     transition: width 1s ease-out; }
-    /* line 15, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+    /* line 15, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
     .resources ~ ul::after {
       content: "Menu";
       color: white;
@@ -133,7 +133,7 @@ xSliding Menu
       top: 0px;
       left: 0;
       border-radius: 5px; }
-    /* line 33, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+    /* line 33, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
     .resources ~ ul li {
       transition: all 1.3s;
       background-color: transparent;
@@ -142,7 +142,7 @@ xSliding Menu
       height: 0%;
       vertical-align: top;
       display: inline-block; }
-      /* line 42, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+      /* line 42, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
       .resources ~ ul li a:link {
         color: transparent;
         text-decoration: none;
@@ -152,16 +152,16 @@ xSliding Menu
         transition-delay: .5s;
         display: block;
         width: 100%; }
-    /* line 54, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+    /* line 54, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
     .resources ~ ul:hover {
       width: 80%;
       margin: 0 auto;
       padding-left: 200px; }
-      /* line 59, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+      /* line 59, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
       .resources ~ ul:hover::after {
         width: 150px;
         left: 0px; }
-      /* line 64, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+      /* line 64, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
       .resources ~ ul:hover li {
         display: inline-block;
         width: 150px;
@@ -181,7 +181,7 @@ xSliding Menu
                   text-shadow: 2px 2px 2px black;
                }
             }*/ }
-        /* line 71, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+        /* line 71, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
         .resources ~ ul:hover li a:link {
           padding: 15.7px 0px;
           font-size: 12px;
@@ -195,11 +195,11 @@ xSliding Menu
           border: 2px solid darkred;
           text-decoration: none;
           border-radius: 5px; }
-          /* line 85, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+          /* line 85, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
           .resources ~ ul:hover li a:link:hover {
             text-shadow: 2px 2px 2px black;
             transition: color 0.5s; }
-          /* line 90, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+          /* line 90, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
           .resources ~ ul:hover li a:link::before, .resources ~ ul:hover li a:link::after {
             content: "";
             width: 20%;
@@ -211,13 +211,13 @@ xSliding Menu
             top: 0;
             transition: top 1s;
             z-index: -1; }
-          /* line 104, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+          /* line 104, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
           .resources ~ ul:hover li a:link::before {
             left: 12%; }
-          /* line 108, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+          /* line 108, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
           .resources ~ ul:hover li a:link::after {
             right: 12%; }
-          /* line 112, /Users/Blaine/Library/Mobile Documents/com~apple~CloudDocs/BYU-I/WDD331/css-zen-garden/partials/_sliding-menu.scss */
+          /* line 112, /Users/BriGroom/Desktop/WDD 331/CSS Zen Garden/css-zen-garden/partials/_sliding-menu.scss */
           .resources ~ ul:hover li a:link:hover::before, .resources ~ ul:hover li a:link:hover::after {
             top: -10px; }
 
