@@ -6,24 +6,24 @@ $button-size: 10px;
     width: 0px;
 
     & ~ ul {
-        width: 8%;
-        height: 50px;
+        width: 200px;
+        height: 100px;
         position: relative;
         margin: 0px auto;
         transition: width 1s ease-out;
 
         &::after {
-            content: "Menu";
-            color: white;
-            font-size: 20px;
+            content: '';
             display: block;
             background-image: url(images/LegoLogo.svg);
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: center;
             text-align: center;
-            width: 250px;
+            width: 100%;
+            max-width: 200px;
             height: 100px;
-            margin: 10px;
+            margin: 0px;
             position: absolute;
             top: 0px;
             left: 0;
@@ -57,7 +57,8 @@ $button-size: 10px;
             padding-left: 200px;
 
             &::after {
-                width: 150px;
+                width: 200px;
+                height: 100px;
                 left: 0px;
             }
 
@@ -66,7 +67,7 @@ $button-size: 10px;
                 width: 150px;
                 height: auto;
                 padding: 0px;
-                margin: 0px 5px;
+                margin: 10px 5px;
 
                 a:link {
                     padding: 15.7px 0px;
