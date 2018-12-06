@@ -1,20 +1,20 @@
 // breakpoints
-   
-$S:     768px;   
-$M:     1024px;     
-$L:     1600px;   
+
+$S:     768px;
+$M:     1024px;
+$L:     1600px;
 
 // media queries
 
 @mixin MQ($canvas) {
   @if $canvas == S {
-   @media only screen and (min-width: $S) { @content; } 
+   @media only screen and (min-width: $S) { @content; }
   }
   @else if $canvas == M {
-   @media only screen and (min-width: $M) { @content; } 
+   @media only screen and (min-width: $M) { @content; }
   }
   @else if $canvas == L {
-   @media only screen and (min-width: $L) { @content; } 
+   @media only screen and (min-width: $L) { @content; }
   }
 }
 
@@ -24,4 +24,57 @@ $L:     1600px;
   width: 100% * $percentage;
   float: $float-direction;
 }
+
+.page-wrapper {
+    column-count: 3;
+    /*  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "intro supporting supporting"
+    "intro supporting supporting"*/
+    column-fill: balance;
+}
+
+.intro header{
+    column-span: all;
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+
+}
+
+.explanation {
+    break-inside: avoid;
+}
+
+.participation  {
+    break-inside:  avoid;
+}
+
+.requirements  {
+    break-inside:  avoid;
+}
+
+footer{
+    column-span: all;
+    text-align: center;
+
+}
+
+.wrapper {
+    position: absolute;
+    top:0;
+    width: 100vw;
+}
+
+.design-archives {
+    display: none;
+}
+
+.zen-resources {
+    column-span: all;
+    text-align: center;
+    margin-top: 5em;
+}
+
 
