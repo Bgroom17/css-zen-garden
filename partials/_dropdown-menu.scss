@@ -1,0 +1,27 @@
+/*Dropdown Menu Styles*/
+.select{
+   display: none;
+}
+.design-selection nav{
+   position: relative;
+    display: inline-block;
+    background-color: yellow;
+    
+      &::before{
+         content:'';
+         display: inline-block;
+         width: 200px;
+         height: 200px;
+         background-color: red;
+         
+      }
+   ul{
+      display: none;
+   }
+   &:hover{
+      ul{
+         display: block;
+         position: absolute;
+      }
+   }
+   }

@@ -49,6 +49,12 @@ $button-size: 10px;
                 display: block;
                 width: 100%;
             }
+            a:visited{
+                color: white;
+                }
+            a:avtive{
+                color: white;
+            }
         }
 
         &:hover {
@@ -69,22 +75,29 @@ $button-size: 10px;
                 padding: 0px;
                 margin: 20px 5px;
 
-                a:link {
-                    padding: 20px 0px;
-                    font-size: 12px;
-                    display: block;
-                    width: 150px;
-                    height: 100%;
-                    color: white;
-                    display: inline-block;
-                    position: relative;
-                    background-color: $color-2;
-                    border: 6px solid #e7bc0f;
-                    text-decoration: none;
+                a{
+                    &:link{
+                        padding: 20px 0px;
+                        font-size: 12px;
+                        display: block;
+                        width: 150px;
+                        height: 100%;
+                        color: white;
+                        display: inline-block;
+                        position: relative;
+                        background-color: $color-2;
+                        border: 6px solid #e7bc0f;
+                        text-decoration: none;
+                    }
 
                     &:hover {
                         text-shadow: 2px 2px 2px black;
                         transition: color 0.5s;
+                    }
+                    
+                    &:visited {
+                        color: white;
+                        border-color: #e7bc0f;
                     }
 
                     &::before,
