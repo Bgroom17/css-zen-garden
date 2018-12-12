@@ -1,27 +1,74 @@
 /*Dropdown Menu Styles*/
-.select{
-   display: none;
+.select {
+    display: none;
 }
-.design-selection nav{
-   position: relative;
+
+.design-selection nav {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
     display: inline-block;
-    background-color: yellow;
-    
-      &::before{
-         content:'';
-         display: inline-block;
-         width: 200px;
-         height: 200px;
-         background-color: red;
-         
-      }
-   ul{
-      display: none;
-   }
-   &:hover{
-      ul{
-         display: block;
-         position: absolute;
-      }
-   }
-   }
+    max-width: 200px;
+    width: 100%;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-image: url(images/drop-menu-icon.svg);
+        transition: all 1s;
+    }
+
+    ul {
+        color: rgba(0,0,0,0);
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+        
+        li a{
+            color: rgba(0,0,0,0);
+            transition: color 0.3s;
+        }
+    }
+
+    &:hover {
+        &::before{
+            transform: rotate(90deg);
+        }
+        
+        ul {
+            width: auto;
+            height: auto;
+            margin: 0px;
+            top: 50px;
+            left: -25px;
+            display: block;
+            position: absolute;
+        }
+
+        li {
+            display: block;
+            color: rgba(0,0,0,0);
+            font-size: 0px;
+            text-align: left;
+            border-left: 1px dotted red;
+            
+            a{
+                &:link, &:visited{
+                    color: #ed2024;
+                    display: block;
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+                &:hover, &:active{
+                    color: #f2cd37;
+                }
+            }
+            a.designer-name{
+                display: none;
+            }
+        }
+    }
+
+}
