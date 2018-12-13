@@ -41,4 +41,26 @@ footer a:hover{
     text-decoration: underline;
 }
 
+.summary a:link, .participation a:link, .requirements a:link{
+    color: $color-1;
+    text-decoration: none;
+    
+    
+}
 
+.summary a:visited, .participation a:visited, .requirements a:visited{
+    color: $color-1;
+    text-decoration: none;
+    
+}
+
+.summary a:hover, .participation a:hover, .requirements a:hover{
+    color: $color-2;
+    text-decoration: underline;
+}
+
+.summary a:active, .participation a:active, .requirements a:active{
+    color: $color-3;
+    text-decoration:overline;
+    
+}
