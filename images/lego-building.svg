@@ -12,66 +12,69 @@
 	.st6{fill:#A35E51;}
 	.st7{fill:#A33122;}
 	.st8{fill:#109B49;}
-	.st9{fill:url(#SVGID_1_);}
+	.st9{fill:url(#SVGID_2_);}
 </style>
-<pattern  y="1937.6" width="821.9" height="879.1" patternUnits="userSpaceOnUse" id="New_Pattern_9" viewBox="0 -879.1 821.9 879.1" style="overflow:visible;">
+<pattern  y="1987.1" width="821.9" height="879.1" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="0 -879.1 821.9 879.1" style="overflow:visible;">
 	<g>
 		<rect y="-879.1" class="st0" width="821.9" height="879.1"/>
-		<rect x="0" y="-879.1" class="st1" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-879.1" class="st2" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-879.1" class="st3" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-879.1" class="st1" width="205.5" height="67.6"/>
-		<rect x="0" y="-811.5" class="st4" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-811.5" class="st5" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-811.5" class="st4" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-811.5" class="st6" width="205.5" height="67.6"/>
-		<rect x="0" y="-743.8" class="st6" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-743.8" class="st7" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-743.8" class="st1" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-743.8" class="st1" width="205.5" height="67.6"/>
-		<rect x="0" y="-676.2" class="st1" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-676.2" class="st6" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-676.2" class="st5" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-676.2" class="st2" width="205.5" height="67.6"/>
-		<rect x="0" y="-608.6" class="st3" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-608.6" class="st5" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-608.6" class="st4" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-608.6" class="st5" width="205.5" height="67.6"/>
-		<rect x="0" y="-541" class="st7" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-541" class="st2" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-541" class="st7" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-541" class="st4" width="205.5" height="67.6"/>
-		<rect x="0" y="-473.3" class="st3" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-473.3" class="st5" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-473.3" class="st1" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-473.3" class="st2" width="205.5" height="67.6"/>
-		<rect x="0" y="-405.7" class="st6" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-405.7" class="st1" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-405.7" class="st6" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-405.7" class="st7" width="205.5" height="67.6"/>
-		<rect x="0" y="-338.1" class="st2" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-338.1" class="st3" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-338.1" class="st2" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-338.1" class="st3" width="205.5" height="67.6"/>
-		<rect x="0" y="-270.5" class="st1" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-270.5" class="st5" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-270.5" class="st8" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-270.5" class="st1" width="205.5" height="67.6"/>
-		<rect x="0" y="-202.9" class="st5" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-202.9" class="st8" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-202.9" class="st7" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-202.9" class="st8" width="205.5" height="67.6"/>
-		<rect x="0" y="-135.2" class="st3" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-135.2" class="st5" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-135.2" class="st4" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-135.2" class="st7" width="205.5" height="67.6"/>
-		<rect x="0" y="-67.6" class="st2" width="205.5" height="67.6"/>
-		<rect x="205.5" y="-67.6" class="st7" width="205.5" height="67.6"/>
-		<rect x="410.9" y="-67.6" class="st6" width="205.5" height="67.6"/>
-		<rect x="616.4" y="-67.6" class="st1" width="205.5" height="67.6"/>
+		<g>
+			<rect y="-879.1" class="st0" width="821.9" height="879.1"/>
+			<rect y="-67.6" class="st1" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-67.6" class="st2" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-67.6" class="st3" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-67.6" class="st1" width="205.5" height="67.6"/>
+			<rect y="-135.2" class="st4" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-135.2" class="st5" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-135.2" class="st4" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-135.2" class="st6" width="205.5" height="67.6"/>
+			<rect y="-202.9" class="st6" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-202.9" class="st7" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-202.9" class="st1" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-202.9" class="st1" width="205.5" height="67.6"/>
+			<rect y="-270.5" class="st1" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-270.5" class="st6" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-270.5" class="st5" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-270.5" class="st2" width="205.5" height="67.6"/>
+			<rect y="-338.1" class="st3" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-338.1" class="st5" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-338.1" class="st4" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-338.1" class="st5" width="205.5" height="67.6"/>
+			<rect y="-405.7" class="st7" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-405.7" class="st2" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-405.7" class="st7" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-405.7" class="st4" width="205.5" height="67.6"/>
+			<rect y="-473.4" class="st3" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-473.4" class="st5" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-473.4" class="st1" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-473.4" class="st2" width="205.5" height="67.6"/>
+			<rect y="-541" class="st6" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-541" class="st1" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-541" class="st6" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-541" class="st7" width="205.5" height="67.6"/>
+			<rect y="-608.6" class="st2" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-608.6" class="st3" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-608.6" class="st2" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-608.6" class="st3" width="205.5" height="67.6"/>
+			<rect y="-676.2" class="st1" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-676.2" class="st5" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-676.2" class="st8" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-676.2" class="st1" width="205.5" height="67.6"/>
+			<rect y="-743.8" class="st5" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-743.8" class="st8" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-743.8" class="st7" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-743.8" class="st8" width="205.5" height="67.6"/>
+			<rect y="-811.5" class="st3" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-811.5" class="st5" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-811.5" class="st4" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-811.5" class="st7" width="205.5" height="67.6"/>
+			<rect y="-879.1" class="st2" width="205.5" height="67.6"/>
+			<rect x="205.5" y="-879.1" class="st7" width="205.5" height="67.6"/>
+			<rect x="410.9" y="-879.1" class="st6" width="205.5" height="67.6"/>
+			<rect x="616.4" y="-879.1" class="st1" width="205.5" height="67.6"/>
+		</g>
 	</g>
 </pattern>
-<pattern  id="SVGID_1_" xlink:href="#New_Pattern_9" patternTransform="matrix(1.8599 0 0 1.0291 3769.5371 -1699.8883)">
+<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(0.9945 0 0 -1.0467 2161.6199 -22573.0254)">
 </pattern>
-<rect x="-4.5" class="st9" width="1537.1" height="1987.1"/>
+<rect x="-4.5" y="-34" class="st9" width="821.9" height="2021.1"/>
 </svg>

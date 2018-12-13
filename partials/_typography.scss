@@ -36,9 +36,51 @@ footer a:link{
     text-decoration: none;
 } 
 
+footer a:visited{
+    color: white;
+}
+
 footer a:hover{
     color:$color-2;
     text-decoration: underline;
 }
+footer a:active{
+    color: $color-3;
+    text-decoration: overline;
+}
 
 
+
+.summary a:link, .participation a:link, .requirements a:link{
+    color: $color-1;
+    text-decoration: none;
+
+}
+
+.summary a:visited, .participation a:visited, .requirements a:visited{
+    color: $color-1;
+    text-decoration: none;
+    
+}
+
+.summary a:hover, .participation a:hover, .requirements a:hover{
+    color: $color-2;
+    text-decoration: underline;
+}
+
+.summary a:active, .participation a:active, .requirements a:active{
+    color: $color-3;
+    text-decoration:overline;
+    
+}
+
+.summary p{
+    color: white;
+    font-size: 1.5em;
+   font-weight: bold;
+    
+}
+
+abbr{
+    text-decoration: none;
+}
