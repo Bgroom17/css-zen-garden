@@ -48,6 +48,7 @@ $L: 1600px;
 
     @include MQ(S) {
         column-count: 1;
+        
     }
 }
 
@@ -250,6 +251,7 @@ $L: 1600px;
     background-image: url(images/lego-building-top.svg);
     background-size: auto 100vw;
     padding-bottom: 10em;
+    
 
     h3 {
         background-color: rgba(0, 0, 0, 1);
