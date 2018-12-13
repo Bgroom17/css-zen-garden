@@ -26,6 +26,7 @@ body {
     /* this is the page background */
     background-image: url(images/lego-sky-background.svg);
     background-attachment: fixed;
+    margin: 0px;
    
 }
 
@@ -85,6 +86,9 @@ xSliding Menu
 -------------------------------- */
 
 @import 'partials/sliding-menu';
+
+@import 'partials/mobile-sliding-menu';
+
 
 /* --------------------------------
 

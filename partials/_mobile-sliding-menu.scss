@@ -1,0 +1,77 @@
+/*Dropdown Menu Styles*/
+@include MQ(M) {
+    .resources {
+        display: none;
+
+        & ~ ul {
+            padding: 0px;
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+            display: inline-block;
+            color: rgba(0, 0, 0, 0);
+            font-size: 0px;
+            width: 0px;
+            height: 0px;
+            text-align: center;
+
+            &::before {
+                content: '';
+                display: block;
+                background-image: url(images/LegoLogo.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                text-align: center;
+                width: 200px;
+                height: 100px;
+                transition: all 1s;
+            }
+
+
+            li a {
+                color: rgba(0, 0, 0, 0);
+                transition: color 0.3s;
+            }
+
+            &:hover {
+                width: auto;
+                height: auto;
+
+                li {
+                    display: block;
+                    text-align: center;
+                    width: 150px;
+                    height: auto;
+                    padding: 0px;
+                    margin: 5px auto;
+
+                    a {
+
+                        &:link,
+                        &:visited {
+                            padding: 20px 0px;
+                            font-size: 12px;
+                            display: block;
+                            width: 150px;
+                            height: 100%;
+                            color: white;
+                            display: inline-block;
+                            position: relative;
+                            background-color: $color-2;
+                            border: 6px solid #e7bc0f;
+                            text-decoration: none;
+                        }
+
+                        &:hover,
+                        &:active {
+                            text-shadow: 2px 2px 2px black;
+                            transition: color 0.5s;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
