@@ -65,11 +65,15 @@ $L:     1600px;
     background-size: auto 100vw;
     padding-bottom: 2em;
     margin-bottom: -2em;
-    
+    padding-top: 1.5em;
+
     p {
         background-color:  rgba(0,0,0,.4);
         padding: 0.25em;
         margin: 8px;
+    }
+    @include MQ(M){
+        background-repeat: repeat;
     }
     @include MQ(S){
         background-repeat: repeat;
@@ -96,6 +100,9 @@ $L:     1600px;
         padding: 0.25em;
         margin: 8px;
     }
+    @include MQ(M){
+        background-repeat: repeat;
+    }
     @include MQ(S){
         background-repeat: repeat;
     }
@@ -111,7 +118,7 @@ $L:     1600px;
     padding-top: 4em;
 
     margin-bottom: -6em;
-    padding-bottom: 35em;
+    padding-bottom: 30em;
 
     h3 {
         background-color:  rgba(0,0,0,.4);
@@ -126,6 +133,9 @@ $L:     1600px;
 
     @include MQ(M){
         padding-bottom: 5.5em;
+        background-repeat: repeat;
+        margin-top: 0em;
+        padding-top: 1.5em;
 
     }
     @include MQ(S){
@@ -156,7 +166,9 @@ $L:     1600px;
     }
 
     @include MQ(M){
-    padding-bottom: 0;
+    padding-bottom: 2em;
+        margin-bottom: -2em;
+        background-repeat: repeat;
 
     }
     @include MQ(S){
@@ -172,6 +184,7 @@ $L:     1600px;
       background-image: url(images/lego-building-top.svg) ;
     background-repeat: no-repeat;
     background-size: auto 100vw;
+    padding-top: 1.5em;
     h3 {
         background-color:  rgba(0,0,0,.4);
         padding: 0.25em;
@@ -183,8 +196,8 @@ $L:     1600px;
         margin: 8px;
     }
     @include MQ(M){
-        break-inside:  auto;
-
+        background-repeat: repeat;
+        padding-bottom: 0;
     }
     @include MQ(S){
         background-repeat: repeat;
@@ -194,7 +207,7 @@ $L:     1600px;
 
 .requirements  {
     break-inside:  avoid;
-
+    padding-top: 1.5em;
     background-image:  url(images/lego-building-top.svg) ;
     background-size: auto 100vw;
     padding-bottom: 10em;
@@ -207,6 +220,12 @@ $L:     1600px;
         background-color:  rgba(0,0,0,.4);
         padding: 0.25em;
         margin: 8px;
+    }
+    @include MQ(M){
+        padding-bottom: 55em;
+    }
+    @include MQ(S){
+        padding-bottom: 0;
     }
 
 }
