@@ -29,6 +29,7 @@
         li a{
             color: rgba(0,0,0,0);
             transition: color 0.3s;
+            font-family: $secondary-font;
         }
     }
 
@@ -52,7 +53,6 @@
             color: rgba(0,0,0,0);
             font-size: 0px;
             text-align: left;
-            border-left: 1px dotted red;
             
             a{
                 &:link, &:visited{
@@ -60,6 +60,7 @@
                     display: block;
                     font-size: 20px;
                     text-decoration: none;
+                    text-shadow: 2px 2px 2px black;
                 }
                 &:hover, &:active{
                     color: #f2cd37;

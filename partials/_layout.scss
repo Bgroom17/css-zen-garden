@@ -54,8 +54,8 @@ $L: 1600px;
 .intro header {
     column-span: all;
     text-align: center;
-    margin-top: 10em;
-    margin-bottom: 10em;
+    margin-top: 15em;
+    margin-bottom: 5em;
 
 }
 
@@ -158,9 +158,6 @@ $L: 1600px;
     @include MQ(S) {
         background-repeat: repeat;
     }
-
-
-
 
 }
 

@@ -28,10 +28,31 @@
                 transition: all 1s;
             }
 
+            li {
+                margin-left: 20px;
+                width: 150px;
+                display: block;
+                text-align: center;
+                height: auto;
+                padding: 0px;
+
+            }
+
 
             li a {
+                background-color: rgba(0, 0, 0, 0);
                 color: rgba(0, 0, 0, 0);
-                transition: color 0.3s;
+                width: 150px;
+                margin: auto;
+                height: 0px;
+                padding: 0px;
+                font-size: 0px;
+                transition: all 0.5s ease-in;
+                display: inline-block;
+                position: relative;
+                text-decoration: none;
+                border: 0px solid rgba(0, 0, 0, 0);
+                font-family: $secondary-font;
             }
 
             &:hover {
@@ -39,28 +60,21 @@
                 height: auto;
 
                 li {
-                    display: block;
-                    text-align: center;
-                    width: 150px;
-                    height: auto;
-                    padding: 0px;
-                    margin: 5px auto;
+
 
                     a {
 
                         &:link,
                         &:visited {
                             padding: 20px 0px;
-                            font-size: 12px;
+                            font-size: 16px;
                             display: block;
                             width: 150px;
                             height: 100%;
                             color: white;
-                            display: inline-block;
-                            position: relative;
                             background-color: $color-2;
                             border: 6px solid #e7bc0f;
-                            text-decoration: none;
+
                         }
 
                         &:hover,
