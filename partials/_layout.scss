@@ -20,7 +20,7 @@ $L: 1600px;
     }
 
     @else if $canvas==L {
-        @media only screen and (min-width: $L) {
+        @media only screen and (min-width: $M) {
             @content;
         }
     }
