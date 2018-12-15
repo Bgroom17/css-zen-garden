@@ -1,86 +1,97 @@
 @import url('https://fonts.googleapis.com/css?family=Titan+One');
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
-$primary-font: 'Barlow', sans-serif;
-$secondary-font:'Titan One', cursive;
+$primary-font: 'Barlow',
+sans-serif;
+$secondary-font:'Titan One',
+cursive;
 
-p{
-   font-family: $primary-font;
+p {
+    font-family: $primary-font;
     color: white;
     font-size: 1.5em;
-    
 
-    
-   
+
+
+
 }
 
-h2,h3{
+h2,
+h3 {
     font-family: $secondary-font;
-     color: $color-2;
+    color: $color-2;
     letter-spacing: .5px;
     font-size: 2em;
-    
-  
-    
-}
-h1{
-     font-size: 3.5em;
-     font-family: $secondary-font;
-     color: $color-2;
+
+
+
 }
 
-footer a:link{
+h1 {
+    font-size: 3.5em;
+    font-family: $secondary-font;
+    color: $color-2;
+}
+
+footer a:link {
     font-family: $secondary-font;
     color: white;
     font-size: 1em;
     text-decoration: none;
-} 
+}
 
-footer a:visited{
+footer a:visited {
     color: white;
 }
 
-footer a:hover{
-    color:$color-2;
-    text-decoration: underline;
-}
-footer a:active{
-    color: $color-3;
-    text-decoration: overline;
-}
-
-
-
-.summary a:link, .participation a:link, .requirements a:link{
-    color: $color-1;
-    text-decoration: none;
-
-}
-
-.summary a:visited, .participation a:visited, .requirements a:visited{
-    color: $color-1;
-    text-decoration: none;
-    
-}
-
-.summary a:hover, .participation a:hover, .requirements a:hover{
+footer a:hover {
     color: $color-2;
     text-decoration: underline;
 }
 
-.summary a:active, .participation a:active, .requirements a:active{
+footer a:active {
     color: $color-3;
-    text-decoration:overline;
-    
+    text-decoration: overline;
 }
 
-.summary p{
+.summary a,
+.participation a,
+.requirements a {
+
+    transition: all 0.2s;
+
+    &:link {
+        color: $color-1;
+        text-decoration: underline;
+        text-decoration-color: rgba(0, 0, 0, 0);
+    }
+
+    &:visited {
+        color: $color-1;
+        text-decoration: underline;
+        text-decoration-color: rgba(0, 0, 0, 0);
+
+    }
+
+    &:hover {
+        color: $color-2;
+        text-decoration: underline;
+        text-decoration-color: $color-2;
+    }
+
+    &:active {
+        color: $color-3;
+        text-decoration: overline;
+    }
+}
+
+.summary p {
     color: white;
     font-size: 1.5em;
-   font-weight: bold;
-    
+    font-weight: bold;
+
 }
 
-abbr{
+abbr {
     text-decoration: none;
 }
