@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+*, *::before, *::after{
+    color: darkblue;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+header{
+    width: 100%;
+}
+header h1{
+    color: white;
+    width: 90%;
+    padding: 40px 0px 30px;
+    max-width: 1000px;
+    margin: 0px;
+    margin: auto;
+    background-color: lightblue;
+}
+header nav{
+    width: 100%;
+    background-color: white;
+    margin: 0px;
+    padding: 5px 0;
+    border-top: 4px solid darkblue;
+    border-bottom: 4px solid darkblue;
+}
+header ul{
+    margin: 0px;
+    padding: 0px;
+    border-top: 4px solid darkblue;
+    border-bottom: 4px solid darkblue;
+}
+header li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style: none;
+}
+header a:link, header a:visited{
+    color: darkblue;
+    text-decoration: none;
+    
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:active{
+    text-decoration: underline;
+}
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.dingbat{
+    font-size: 800%;
+    font-stretch: condensed;
+    display: inline-block;
+    margin-top: -20px;
+    padding: 0px;
+    transform: rotate(90deg);
+}
+figure{
+    display: inline-block;
+    width: 30%;
+    min-width: 250px;
+    margin: auto;
+    position: relative;
+}
+figure::before, figure::after, .image::before, .image::after{
+    content:"";
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+figure::before{
+    top: 0;
+    left: 0;
+    border-top: solid 20px rgb(250,250,250);
+    border-left: solid 20px rgb(250,250,250);
+    border-right: solid 20px rgba(0,0,0,0);
+    border-bottom: solid 20px rgba(0,0,0,0);
+}
+figure::after{
+    top:0px;
+    right: 0px;
+    border-top: solid 20px rgb(250,250,250);
+    border-right: solid 20px rgb(250,250,250);
+    border-left: solid 20px rgba(0,0,0,0);
+    border-bottom: solid 20px rgba(0,0,0,0);
+}
+figure img{
+    max-width: 100%;
+}
+.image::before{
+    bottom: 0px;
+    left: 0px;
+    border-bottom: solid 20px rgb(250,250,250);
+    border-left: solid 20px rgb(250,250,250);
+    border-right: solid 20px rgba(0,0,0,0);
+    border-top: solid 20px rgba(0,0,0,0);
+}
+.image::after{
+    bottom: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    border-bottom: solid 20px rgb(250,250,250);
+    border-right: solid 20px rgb(250,250,250);
+    border-left: solid 20px rgba(0,0,0,0);
+    border-top: solid 20px rgba(0,0,0,0);
+}
+footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: -1px auto 0 auto;
+    background-color: lightblue;
+}
+footer p{
+    margin: 0px;
+    padding: 30px;
+}
